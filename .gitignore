@@ -1,4 +1,6 @@
 raw-wiktextract-data.jsonl.gz
+*.db
+*.jsonl.gz
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
