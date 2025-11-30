@@ -34,6 +34,9 @@ CREATE INDEX IF NOT EXISTS idx_entries_lang_word_pos
 
 CREATE INDEX IF NOT EXISTS idx_entries_word
     ON entries(word);
+
+CREATE INDEX IF NOT EXISTS idx_entries_word_lang
+    ON entries(word, lang_code);
 """
 
 SCHEMA_EDGES = """
